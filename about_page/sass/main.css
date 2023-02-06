@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@300;700&family=Lexend+Deca&family=Montserrat:wght@500;700;800&family=Poppins&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@300;700&family=Montserrat:wght@500;700;800&family=Poppins&family=Roboto&family=Space+Mono:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.about {
+  margin: auto;
+  padding: 82px 165px;
+  background-size: cover;
+  background-image: url(../img/Bitmap.png);
+}
+.about h1 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #ffffff;
+}
+
+.digitel__page {
+  justify-content: center;
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+.digitel__page .digitel__page-text {
+  padding: 215px 0px 165px 165px;
+  width: 650px;
+}
+.digitel__page .digitel__page-text h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+  margin-bottom: 24px;
+}
+.digitel__page .digitel__page-text h3 {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+.digitel__page .digitel__page-image {
+  width: 300px;
+  margin-right: 180px;
+}
+
+.digitel__page1 {
+  justify-content: center;
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+.digitel__page1 .digitel__page1-text {
+  padding: 285px 165px 215px 0px;
+  width: 650px;
+}
+.digitel__page1 .digitel__page1-text h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+  margin-bottom: 24px;
+}
+.digitel__page1 .digitel__page1-text h3 {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939caa;
+}
+.digitel__page1 .digitel__page1-image {
+  margin-left: -120px;
+}
+
+.skooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 120px;
+}
+.skooter h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.skooter .iphone {
+  width: 350px;
+}
+.skooter .iphone h2 {
+  margin-top: 32px;
+  margin-bottom: 30px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+.skooter .iphone h2 p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #939caa;
+}
+
+.pages5 {
+  display: flex;
+  justify-content: center;
+  padding: 0px 80px 100px 80px;
+}
+.pages5 h1 {
+  margin-bottom: 64px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.pages5 .pages5-0 {
+  display: flex;
+  justify-content: center;
+  gap: 260px;
+}
+.pages5 .pages5-0 h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.78571px;
+  color: #495567;
+}
+
+.pages6 {
+  display: flex;
+  justify-content: center;
+  padding: 0px 80px 150px 80px;
+}
+.pages6 h1 {
+  margin-bottom: 64px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+.pages6 .pages6-0 {
+  display: flex;
+  justify-content: center;
+  gap: 260px;
+}
+.pages6 .pages6-0 h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.78571px;
+  color: #495567;
+}
+
+.footer__page {
+  display: flex;
+  justify-content: center;
+  padding: 102px 162px;
+  gap: 336px;
+  align-items: center;
+  background-image: url(../img/Mask.png);
+  background-size: cover;
+}
+.footer__page h3 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  width: 415px;
+  color: #ffffff;
+}
+.footer__page .footer__page-store {
+  display: flex;
+  gap: 28px;
+}
+
+footer {
+  padding: 36px 169px;
+  background: #333a44;
+}
+
+@media (min-width: 560px) and (max-width: 768px) {
+  .about {
+    margin: auto;
+    padding: 62px 705px 102px 55px;
+  }
+  .about h1 {
+    margin-top: 40px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #ffffff;
+  }
+  .digitel__page {
+    align-items: center;
+    text-align: center;
+  }
+  .digitel__page .digitel__page-text {
+    width: 750px;
+    margin-top: -200px;
+    order: 2;
+  }
+  .digitel__page .digitel__page-text h2 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    margin-bottom: 24px;
+  }
+  .digitel__page .digitel__page-text h3 {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939caa;
+  }
+  .digitel__page .digitel__page-image {
+    margin-top: 170px;
+    order: 1;
+    margin-left: -100px;
+  }
+  .digitel__page1 {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    gap: 200px;
+    align-items: center;
+  }
+  .digitel__page1 .digitel__page1-text {
+    order: 2;
+    padding: 65px 85px 215px 112px;
+  }
+  .digitel__page1 .digitel__page1-text h2 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    margin-bottom: 24px;
+  }
+  .digitel__page1 .digitel__page1-text h3 {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939caa;
+  }
+  .digitel__page1 .digitel__page1-image {
+    margin-left: -350px;
+    order: 1;
+  }
+  .skooter {
+    text-align: center;
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 120px;
+  }
+  .skooter h2 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  .skooter .iphone {
+    width: 350px;
+  }
+  .skooter .iphone h2 {
+    margin-top: 32px;
+    margin-bottom: 30px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+  }
+  .skooter .iphone h2 p {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #939caa;
+  }
+  .pages5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 80px 100px 80px;
+  }
+  .pages5 h1 {
+    margin-bottom: 64px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  .pages5 .pages5-0 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 260px;
+  }
+  .pages5 .pages5-0 h2 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.78571px;
+    color: #495567;
+    margin-bottom: -150px;
+  }
+  .pages6-0 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 260px;
+  }
+  .pages6-0 h2 {
+    margin-top: 50px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.78571px;
+    color: #495567;
+    margin-bottom: -150px;
+  }
+  .footer__page {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 102px 62px;
+    gap: 156px;
+    align-items: center;
+  }
+  .footer__page h3 {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    width: 415px;
+    color: #ffffff;
+  }
+  .footer__page .footer__page-store {
+    display: flex;
+    gap: 28px;
+  }
+}/*# sourceMappingURL=main.css.map */

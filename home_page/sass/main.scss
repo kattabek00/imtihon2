@@ -1,0 +1,700 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@300;700&family=Lexend+Deca&family=Montserrat:wght@500;700;800&family=Poppins&family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@300;700&family=Montserrat:wght@500;700;800&family=Poppins&family=Roboto&family=Space+Mono:wght@700&display=swap");
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+.scooter {
+   height: 780px;
+   background-image: url(../img/scooter.png);
+   background-size: cover;
+
+   h6 {
+      width: 500px;
+      padding-top: 123px;
+      margin: 0px 182px;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -2.5px;
+      color: #ffffff;
+   }
+   .yonalish {
+      display: flex;
+      gap: 57px;
+      align-items: center;
+
+      p {
+         font-family: "Lexend Deca";
+         font-style: normal;
+         font-weight: 400;
+         font-size: 15px;
+         line-height: 25px;
+         width: 400px;
+         color: #ffffff;
+      }
+      .strelka {
+         margin-top: 140px;
+      }
+   }
+   .warning {
+      margin-left: 260px;
+   }
+}
+.icons {
+   padding: 165px;
+   gap: 35px;
+   justify-content: center;
+   .icons__card {
+      width: 300px;
+      img {
+         padding-bottom: 40px;
+      }
+      h3 {
+         padding-bottom: 30px;
+         font-family: "Space Mono";
+         font-style: normal;
+         font-weight: 700;
+         font-size: 24px;
+         line-height: 28px;
+         letter-spacing: -1.07143px;
+         color: #495567;
+      }
+      p {
+         font-family: "Lexend Deca";
+         font-style: normal;
+         font-weight: 400;
+         font-size: 15px;
+         line-height: 25px;
+         color: #939caa;
+      }
+   }
+}
+.opacha {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 165px;
+   gap: 83px;
+   .opacha__text {
+      width: 485px;
+      h3 {
+         margin-bottom: 25px;
+         font-family: "Space Mono";
+         font-style: normal;
+         font-weight: 700;
+         font-size: 48px;
+         line-height: 48px;
+         letter-spacing: -2.14286px;
+         color: #495567;
+      }
+      p {
+         font-family: "Lexend Deca";
+         font-style: normal;
+         font-weight: 400;
+         font-size: 15px;
+         line-height: 25px;
+         color: #939caa;
+         margin-bottom: 40px;
+      }
+   }
+   .opacha__img {
+      background-image: url(../img/opacha.png);
+      background-size: cover;
+      width: 400px;
+      height: 400px;
+      .opacha__img-img {
+         margin-left: -170px;
+         margin-bottom: -700px;
+         width: 720px;
+      }
+   }
+}
+.opacha2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 165px;
+   gap: 83px;
+   .opacha2__text {
+      width: 485px;
+      h3 {
+         margin-bottom: 25px;
+         font-family: "Space Mono";
+         font-style: normal;
+         font-weight: 700;
+         font-size: 48px;
+         line-height: 48px;
+         letter-spacing: -2.14286px;
+         color: #495567;
+      }
+      p {
+         font-family: "Lexend Deca";
+         font-style: normal;
+         font-weight: 400;
+         font-size: 15px;
+         line-height: 25px;
+         color: #939caa;
+         margin-bottom: 40px;
+      }
+   }
+   .opacha2__img {
+      background-image: url(../img/shahar.jpg);
+      background-size: cover;
+      width: 400px;
+      height: 400px;
+      .opacha2__img-img {
+         margin-left: -350px;
+         width: 520px;
+      }
+   }
+}
+.opacha3 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 165px;
+   margin-bottom: 200px;
+   gap: 83px;
+   .opacha3__text {
+      width: 485px;
+      h3 {
+         margin-bottom: 25px;
+         font-family: "Space Mono";
+         font-style: normal;
+         font-weight: 700;
+         font-size: 48px;
+         line-height: 48px;
+         letter-spacing: -2.14286px;
+         color: #495567;
+      }
+      p {
+         font-family: "Lexend Deca";
+         font-style: normal;
+         font-weight: 400;
+         font-size: 15px;
+         line-height: 25px;
+         color: #939caa;
+         margin-bottom: 40px;
+      }
+   }
+   .opacha3__img {
+      background-image: url(../img/hamyon.png);
+      background-size: cover;
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      .opacha3__img-img {
+         margin-top: 100px;
+         margin-left: 250px;
+         display: flex;
+         align-items: center;
+         width: 520px;
+      }
+   }
+}
+.footer__page {
+   display: flex;
+   justify-content: center;
+   padding: 102px 162px;
+   gap: 336px;
+   align-items: center;
+   background-image: url(../img/Mask.png);
+   h3 {
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: -2.14286px;
+      width: 415px;
+      color: #ffffff;
+   }
+   .footer__page-store {
+      display: flex;
+      gap: 28px;
+   }
+}
+footer {
+   padding: 36px 169px;
+   background: #333a44;
+}
+@media (min-width: 560px) and(max-width:768px) {
+   .scooter {
+      height: 700px;
+
+      h6 {
+         font-family: "Space Mono";
+         font-style: normal;
+         font-weight: 700;
+         font-size: 56px;
+         line-height: 56px;
+         text-align: center;
+         letter-spacing: -2.5px;
+         color: #ffffff;
+         width: 575px;
+         margin: auto;
+      }
+      .yonalish {
+         display: block;
+         gap: 57px;
+         align-items: center;
+         text-align: center;
+         .yonalish_chiziq {
+            display: none;
+         }
+
+         p {
+            font-family: "Lexend Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            padding-top: 25px;
+            width: 575px;
+            margin: auto;
+            color: #ffffff;
+         }
+         .strelka {
+            margin-left: -400px;
+            width: 350px;
+         }
+      }
+      .warning {
+         margin-left: 270px;
+         margin-top: -400px;
+      }
+   }
+
+   .icons {
+      padding: 122px 35px;
+      gap: 35px;
+      justify-content: center;
+      .icons__card {
+         width: 500px;
+         display: flex;
+         gap: 74px;
+         align-items: flex-start;
+         img {
+            padding-bottom: 40px;
+         }
+         h3 {
+            font-family: "Space Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -1.07143px;
+            color: #495567;
+         }
+         p {
+            font-family: "Lexend Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939caa;
+         }
+      }
+   }
+   .opacha {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 85px;
+      gap: 83px;
+      .opacha__text {
+         order: 2;
+         text-align: center;
+         width: 485px;
+         h3 {
+            margin-bottom: 25px;
+            font-family: "Space Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #495567;
+         }
+         p {
+            font-family: "Lexend Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939caa;
+            margin-bottom: 40px;
+         }
+      }
+      .opacha__img {
+         background-image: url(../img/opacha.png);
+         background-size: cover;
+         width: 400px;
+         height: 400px;
+         .opacha__img-img {
+            margin-left: -120px;
+            margin-bottom: -700px;
+            width: 600px;
+            height: 90px;
+            order: 1;
+         }
+      }
+   }
+   .opacha2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 85px;
+      gap: 83px;
+      .opacha2__text {
+         width: 485px;
+         text-align: center;
+         h3 {
+            margin-bottom: 25px;
+            font-family: "Space Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #495567;
+         }
+         p {
+            font-family: "Lexend Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939caa;
+            margin-bottom: 40px;
+         }
+      }
+      .opacha2__img {
+         background-image: url(../img/shahar.jpg);
+         background-size: cover;
+         width: 400px;
+         height: 400px;
+         .opacha2__img-img {
+            margin-left: -350px;
+         }
+      }
+   }
+   .opacha3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 85px;
+      margin-bottom: 200px;
+      gap: 83px;
+      .opacha3__text {
+         width: 485px;
+         order: 2;
+         text-align: center;
+         h3 {
+            margin-bottom: 25px;
+            font-family: "Space Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #495567;
+         }
+         p {
+            font-family: "Lexend Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939caa;
+            margin-bottom: 40px;
+         }
+      }
+      .opacha3__img {
+         background-image: url(../img/hamyon.png);
+         background-size: cover;
+         width: 400px;
+         height: 400px;
+         border-radius: 50%;
+         .opacha3__img-img {
+            margin-top: 100px;
+            margin-left: 100px;
+            display: flex;
+            align-items: center;
+            width: 420px;
+            height: 90px;
+            order: 1;
+         }
+      }
+   }
+   .footer__page {
+      display: block;
+      // padding: 102px 155px;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      align-items: center;
+      background-image: url(../img/Mask.png);
+      h3 {
+         font-family: "Space Mono";
+         font-style: normal;
+         font-weight: 700;
+         font-size: 48px;
+         line-height: 48px;
+         letter-spacing: -2.14286px;
+         width: 415px;
+         color: #ffffff;
+         margin-bottom: 50px;
+      }
+      .footer__page-store {
+         display: flex;
+         gap: 28px;
+      }
+   }
+}
+@media (max-width: 560px) {
+   .scooter {
+      padding: 105px 7px;
+      overflow-x: hidden;
+      height: 700px;
+      padding: 10px;
+
+      h6 {
+         font-family: "Space Mono";
+         font-style: normal;
+         font-weight: 700;
+         font-size: 40px;
+         line-height: 40px;
+         text-align: center;
+         letter-spacing: -1.78571px;
+         color: #ffffff;
+         width: 545px;
+         margin: auto;
+      }
+      .yonalish {
+         display: block;
+         align-items: center;
+         text-align: center;
+         .yonalish_chiziq {
+            display: none;
+         }
+
+         p {
+            font-family: "Lexend Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            padding-top: 25px;
+            color: #ffffff;
+            margin: auto;
+         }
+         .strelka {
+            margin-left: -700px;
+            width: 550px;
+         }
+      }
+      .warning {
+         margin-left: 200px;
+         margin-top: -400px;
+      }
+   }
+
+   .icons {
+      padding: 122px 35px;
+      gap: 35px;
+      justify-content: center;
+      .icons__card {
+         text-align: center;
+         width: 500px;
+         gap: 74px;
+         align-items: flex-start;
+         img {
+            padding-bottom: 40px;
+         }
+         h3 {
+            font-family: "Space Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -1.07143px;
+            color: #495567;
+         }
+         p {
+            font-family: "Lexend Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939caa;
+         }
+      }
+   }
+   .opacha { 
+      overflow-x: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 35px;
+
+      .opacha__text {
+         order: 2;
+         text-align: center;
+         width: 455px;
+         h3 {
+            margin-bottom: 25px;
+            font-family: "Space Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #495567;
+         }
+         p {
+            font-family: "Lexend Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939caa;
+            margin-bottom: 40px;
+         }
+      }
+      .opacha__img {
+         background-image: url(../img/opacha.png);
+         background-size: cover;
+         width: 300px;
+         height: 300px;
+         .opacha__img-img {
+            margin-left: -120px;
+            margin-bottom: -550px;
+            width: 500px;
+            height: 90px;
+            order: 1;
+         }
+      }
+   }
+   .opacha2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 35px;
+      gap: 83px;
+      .opacha2__text {
+         width: 485px;
+         text-align: center;
+         h3 {
+            margin-bottom: 25px;
+            font-family: "Space Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #495567;
+         }
+         p {
+            font-family: "Lexend Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939caa;
+            margin-bottom: 40px;
+         }
+      }
+      .opacha2__img {
+         background-image: url(../img/shahar.jpg);
+         background-size: cover;
+         width: 300px;
+         height: 300px;
+         // overflow-x: hidden;
+         .opacha2__img-img {
+            margin-left: -150px;
+            width: 320px;
+         }
+      }
+   }
+   .opacha3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 35px;
+      margin-bottom: 200px;
+      gap: 83px;
+      .opacha3__text {
+         width: 485px;
+         order: 2;
+         text-align: center;
+         h3 {
+            margin-bottom: 25px;
+            font-family: "Space Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #495567;
+         }
+         p {
+            font-family: "Lexend Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939caa;
+            margin-bottom: 40px;
+         }
+      }
+      .opacha3__img {
+         background-image: url(../img/hamyon.png);
+         background-size: cover;
+         width: 300px;
+         height: 300px;
+         border-radius: 50%;
+         // overflow: hidden;
+         .opacha3__img-img {
+            margin-top: 100px;
+            margin-left: 100px;
+            display: flex;
+            align-items: center;
+            width: 220px;
+            height: 90px;
+            order: 1;
+         }
+      }
+   }
+   .footer__page {
+      display: block;
+      padding: 102px 85px;
+      margin: auto;
+      text-align: center;
+      align-items: center;
+      background-image: url(../img/Mask.png);
+      h3 {
+         font-family: "Space Mono";
+         font-style: normal;
+         font-weight: 700;
+         font-size: 48px;
+         line-height: 48px;
+         letter-spacing: -2.14286px;
+         width: 355px;
+         color: #ffffff;
+         margin-bottom: 50px;
+      }
+      .footer__page-store {
+         display: flex;
+         gap: 28px;
+      }
+   }
+}
